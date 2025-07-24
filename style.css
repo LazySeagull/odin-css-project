@@ -5,7 +5,7 @@ a{
 }
 
 a:hover{
-    border-bottom:yellow solid;
+    border-bottom:#F9FAF8 solid;
 }
 
 ul{
@@ -125,3 +125,33 @@ ul{
     padding-top:10px;
     font-weight:900;
 }
+
+
+/* footer */
+
+
+.footer-above-content   {
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right:30px;
+    padding-top: 30px;
+    padding-bottom:15px;
+    background-color: #3882F6; 
+    margin-left:300px;
+    margin-right:300px;
+    margin-top:30px;
+    border-radius:25px;
+}
+
+.footer-text-above{
+    color:#F9FAF8;
+    font-size:23px;
+    font-weight:900;
+}
+
+.footer-text-below{
+    color:#E5E7EB;
+}
+
