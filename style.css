@@ -73,7 +73,7 @@ ul{
     justify-content:center;
     align-items:center;
     font-size:26px;
-    font-weight:900px;
+    font-weight:900;
 
 }
 
@@ -99,4 +99,29 @@ ul{
 .image{
     width:170px;    
 
+}
+
+
+/* content lower */
+
+.lower-content{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding:30px;
+    background-color:#E5E7EB;
+    margin-top:30px;
+}
+
+.quote{
+    font-size:36px;
+    font-style:italic;
+    color:#1F2937;
+}
+
+.by{
+    padding-left:380px;
+    padding-top:10px;
+    font-weight:900;
 }
