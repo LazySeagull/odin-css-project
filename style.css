@@ -4,6 +4,10 @@ a{
     color:#E5E7EB;
 }
 
+a:hover{
+    border-bottom:yellow solid;
+}
+
 ul{
     list-style-type:none;
 }
@@ -45,7 +49,7 @@ ul{
     align-items:center;
     justify-content: space-between;
     background-color: #1F2937;
-    padding: 50px 10px;
+    padding: 20px 0;
     padding-left:100px;
     padding-right:130px;
     
@@ -58,4 +62,41 @@ ul{
 .container-1{
     display:flex;
     flex-direction:column;
+}
+
+
+/* middle part begins here */
+
+
+.paragraph{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:26px;
+    font-weight:900px;
+
+}
+
+.container{
+    display:flex;
+    gap:30px;
+    flex-wrap:wrap;  
+    align-items:center;
+    justify-content: center;   
+}
+
+.text{
+    text-align:center;
+    padding:5px;
+}
+
+
+#one , #two , #three , #four {
+    width:170px;
+    height:auto;
+}
+
+.image{
+    width:170px;    
+
 }
