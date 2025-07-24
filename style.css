@@ -1,3 +1,16 @@
+body{
+    display:flex;
+    flex-direction: column;
+    min-height:100vh;
+    margin:0;
+}
+
+main{
+    flex-grow:1;
+}
+
+
+
 a{
     text-decoration:none;
     font-size:18px;
@@ -10,6 +23,16 @@ a:hover{
 
 ul{
     list-style-type:none;
+}
+
+ul li::after{
+    content:"|";
+    color:#E5E7EB;
+    margin-left:5px;
+}
+
+ul li:last-child::after{
+    content:"";
 }
 
 
@@ -50,13 +73,9 @@ ul{
     justify-content: space-between;
     background-color: #1F2937;
     padding: 20px 0;
-    padding-left:100px;
+    padding-left:110px;
     padding-right:130px;
     
-}
-
-.h3{
-    font-weight:900;
 }
 
 .container-1{
@@ -127,7 +146,7 @@ ul{
 }
 
 
-/* footer */
+/* footer above content*/
 
 
 .footer-above-content   {
@@ -137,11 +156,12 @@ ul{
     padding-left: 30px;
     padding-right:30px;
     padding-top: 30px;
-    padding-bottom:15px;
+    padding-bottom:30px;
     background-color: #3882F6; 
     margin-left:300px;
     margin-right:300px;
     margin-top:30px;
+    margin-bottom:30px;
     border-radius:25px;
 }
 
@@ -155,3 +175,24 @@ ul{
     color:#E5E7EB;
 }
 
+/* actual footer lol */
+
+.footer{
+    background-color: #1F2937;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top:auto;
+}
+
+.copyright{
+    color:#F9FAF8;
+    font-size:20px;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+
+.copyright-description{
+    color:#E5E7EB;
+    margin-bottom:10px;
+}
